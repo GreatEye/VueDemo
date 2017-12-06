@@ -14,7 +14,7 @@ module.exports = {
         // 下面定义的是静态资源根目录的子目录static，也就是dist目录下面的static
         assetsSubDirectory: 'static',
         // 下面定义的是静态资源的公开路径，也就是真正的引用路径
-        assetsPublicPath: '/',
+        assetsPublicPath: './',
         // 下面定义是否生成生产环境的sourcmap，sourcmap是用来debug编译后文件的，通过映射到编译前文件来实现
         productionSourceMap: true,
         // Gzip off by default as many popular static hosts such as
