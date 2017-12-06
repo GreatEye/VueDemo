@@ -1,9 +1,13 @@
 <template>
-  <div>this jus a demo</div>
+  <Turntable></Turntable>
 </template>
 
 <script>
+  import Turntable from './Turntable/Turntable'
   export default{
-    name: 'app'
+    name: 'app',
+    components: {
+      Turntable
+    }
   }
 </script>

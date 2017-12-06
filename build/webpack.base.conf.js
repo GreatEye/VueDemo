@@ -92,7 +92,14 @@ module.exports = {
                 limit: 10000,
                     name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
             }
-            }
+            },
+          {
+            test: /\.svg$/,
+            loader: 'svg-sprite?' + JSON.stringify({
+              name: '[name]_[hash]',
+              prefixize: true
+            })
+          }
         ]
     }
 }
